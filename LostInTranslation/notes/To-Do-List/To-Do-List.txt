@@ -1,0 +1,20 @@
+Things that must be done to create the Minimum Viable Product
+-Adjust Room Properties(Adjust Resolution, Fix Camera Settings, Meta Data Stuff)
+-Create Room Elements[Player, Doors, Ajust]
+-Basic Player Movements[4 directional 2D movement as well as collisions(Only need 1)]
+-"Unlocking" Mechanic"[Opening Doors](Don't think about it too hard)
+
+-Create list of words and hard-code them into the assets[Stop-gap measure]
+
+-Create Corresponding Assets[Fill-ins are ok for now]
+-Create "False Doors"[Doors that will specifically reject player]
+-Create Labryinth System[Interconnected and Persistent Rooms][Room Transitions]
+-Implement Live System
+
+-Assessment/Evaluation Creation
+
+Other things that are important but not necessary
+-Implement Menu System[Just a simple "Play" and "Quit" will work]
+-Sounds[Pronunciation of each word]
+-Change hard-coded words to randomly picked and generated from an array
+
