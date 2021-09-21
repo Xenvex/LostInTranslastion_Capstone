@@ -1,8 +1,9 @@
 {
   "resources": [
-    {"id":{"name":"To-Do-List","path":"notes/To-Do-List/To-Do-List.yy",},"order":0,},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":15,},
+    {"id":{"name":"font_main","path":"fonts/font_main/font_main.yy",},"order":0,},
+    {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":5,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
+    {"id":{"name":"To-Do-List","path":"notes/To-Do-List/To-Do-List.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -20,8 +21,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -42,7 +43,7 @@
     {"folderPath":"folders/Objects/Vandit.yy","order":2,"resourceVersion":"1.0","name":"Vandit","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Crisitian.yy","order":3,"resourceVersion":"1.0","name":"Crisitian","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Ryan.yy","order":4,"resourceVersion":"1.0","name":"Ryan","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/Level_1.yy","order":2,"resourceVersion":"1.0","name":"Level_1","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/Level_1.yy","order":0,"resourceVersion":"1.0","name":"Level_1","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
