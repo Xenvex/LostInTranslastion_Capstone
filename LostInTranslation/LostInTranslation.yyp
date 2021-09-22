@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"o_Invisible_Wall","path":"objects/o_Invisible_Wall/o_Invisible_Wall.yy",},"order":10,},
+    {"id":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},"order":1,},
     {"id":{"name":"o_Door","path":"objects/o_Door/o_Door.yy",},"order":8,},
     {"id":{"name":"font_main","path":"fonts/font_main/font_main.yy",},"order":0,},
     {"id":{"name":"sInvisible","path":"sprites/sInvisible/sInvisible.yy",},"order":4,},
@@ -31,6 +32,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -61,7 +63,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "LostInTranslation",
