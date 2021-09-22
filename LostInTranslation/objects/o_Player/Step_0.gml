@@ -53,6 +53,9 @@ if(place_meeting(x,y+vertical_speed,o_Door)){
 		o_Player.x = 225;
 		o_Player.y = 189;
 		vertical_speed = 0;
+		o_Door.image_blend = c_white;
+	}else{
+		door_obj.image_blend = c_green;
 	}
 }
 
@@ -63,6 +66,9 @@ if(place_meeting(x+horizontal_speed,y,o_Door)){
 		o_Player.x = 225;
 		o_Player.y = 189;
 		horizontal_speed = 0;
+		o_Door.image_blend = c_white;
+	}else{
+		door_obj.image_blend = c_green;
 	}
 }
 
