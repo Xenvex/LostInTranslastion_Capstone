@@ -30,9 +30,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
