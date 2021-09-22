@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"o_Invisible_Wall","path":"objects/o_Invisible_Wall/o_Invisible_Wall.yy",},"order":10,},
     {"id":{"name":"o_Door","path":"objects/o_Door/o_Door.yy",},"order":8,},
     {"id":{"name":"font_main","path":"fonts/font_main/font_main.yy",},"order":0,},
+    {"id":{"name":"sInvisible","path":"sprites/sInvisible/sInvisible.yy",},"order":4,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":5,},
