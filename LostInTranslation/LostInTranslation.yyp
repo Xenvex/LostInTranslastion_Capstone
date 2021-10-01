@@ -2,12 +2,13 @@
   "resources": [
     {"id":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},"order":1,},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},"order":0,},
-    {"id":{"name":"o_Door","path":"objects/o_Door/o_Door.yy",},"order":8,},
+    {"id":{"name":"o_VDoor","path":"objects/o_VDoor/o_VDoor.yy",},"order":8,},
     {"id":{"name":"font_main","path":"fonts/font_main/font_main.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"LvL1_Interconnected","path":"rooms/LvL1_Interconnected/LvL1_Interconnected.yy",},"order":2,},
     {"id":{"name":"DoorWE","path":"sprites/DoorWE/DoorWE.yy",},"order":2,},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":0,},
+    {"id":{"name":"o_HDoor","path":"objects/o_HDoor/o_HDoor.yy",},"order":10,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":5,},
     {"id":{"name":"DoorNS","path":"sprites/DoorNS/DoorNS.yy",},"order":1,},
@@ -34,9 +35,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},},
     {"roomId":{"name":"LvL1_Interconnected","path":"rooms/LvL1_Interconnected/LvL1_Interconnected.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
