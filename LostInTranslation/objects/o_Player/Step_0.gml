@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//input
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_up = keyboard_check(vk_up);
@@ -8,53 +7,69 @@ key_down = keyboard_check(vk_down);
 var horizontal_move = key_right - key_left;
 var vertical_move = key_down - key_up;
 
-horizontal_speed = horizontal_move * walk_speed;
-vertical_speed = vertical_move * walk_speed;
-
-//WALL COLLISION CHECK
-
-if(place_meeting(x+horizontal_speed,y,o_Wall)){
+//horizontal movement
+{
+	if(is_hurt and knock_direction=="sideways"){
+		horizontal_speed *= knockback_fr;
+		if(abs(horizontal_speed)<1){
+			is_hurt = false;
+		}
+	}else{
+		horizontal_speed = horizontal_move * walk_speed;
+	}
+	
+	if(place_meeting(x+horizontal_speed,y,o_Wall)){
 	while(!place_meeting(x+sign(horizontal_speed),y,o_Wall)){
 		x = x + sign(horizontal_speed);
 	}
 	horizontal_speed = 0;
+	}
+	
+	x+=horizontal_speed;
+	
 }
 
-if(place_meeting(x,y+vertical_speed,o_Wall)){
+//vertical movement
+{
+	if(is_hurt and knock_direction=="updown"){
+		vertical_speed *= knockback_fr;
+		if(abs(vertical_speed)<1){
+			is_hurt = false;
+		}
+	}else{
+		vertical_speed = vertical_move * walk_speed;
+	}
+	
+	if(place_meeting(x,y+vertical_speed,o_Wall)){
 	while(!place_meeting(x,y+sign(vertical_speed),o_Wall)){
 		y = y + sign(vertical_speed);
 	}
 	vertical_speed = 0;
+	}
+
+	y+=vertical_speed;
 }
 
-//DOOR COLLISION CHECK
-
-if(place_meeting(x,y+vertical_speed,o_Door)){
-	var door_obj=instance_place(x,y+vertical_speed,o_Door);
-	
-	if(door_obj.correct_door == false){
-		o_Player.x = 288;
-		o_Player.y = 192;
-		vertical_speed = 0;
-		o_Door.image_blend = c_white;
-	}else{
-		door_obj.image_blend = c_green;
+//Vertical Door Collision
+{
+	if(not is_hurt and place_meeting(x,y,o_VDoor)){
+		is_hurt = true;
+		player_lives -=1;
+		knock_direction = "sideways";
+		horizontal_speed = - horizontal_speed;
+		show_debug_message("Player now has " + string(player_lives) + " lives.");
 	}
 }
 
-if(place_meeting(x+horizontal_speed,y,o_Door)){
-	var door_obj=instance_place(x+horizontal_speed,y,o_Door);
-	
-	if(door_obj.correct_door == false){
-		o_Player.x = 288;
-		o_Player.y = 192;
-		horizontal_speed = 0;
-		o_Door.image_blend = c_white;
-	}else{
-		door_obj.image_blend = c_green;
+//Horizontal Collision
+{
+	if(not is_hurt and place_meeting(x,y,o_HDoor)){
+		is_hurt = true;
+		player_lives-=1;
+		knock_direction = "updown";
+		vertical_speed = - vertical_speed;
+		show_debug_message("Player now has " + string(player_lives) + " lives.");
 	}
 }
 
 
-x = x + horizontal_speed;
-y = y + vertical_speed;

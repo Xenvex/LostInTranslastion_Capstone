@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_Door",
+  "name": "o_VDoor",
   "tags": [],
   "resourceType": "GMObject",
 }
