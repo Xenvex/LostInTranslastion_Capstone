@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_FocalWindow",
-    "path": "sprites/spr_FocalWindow/spr_FocalWindow.yy",
+    "name": "spr_FocalPacer",
+    "path": "sprites/spr_FocalPacer/spr_FocalPacer.yy",
   },
   "solid": false,
   "visible": true,
