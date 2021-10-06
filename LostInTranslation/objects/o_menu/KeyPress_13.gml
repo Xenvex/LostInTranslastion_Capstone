@@ -3,7 +3,7 @@
 switch(menu_index){
 	case 0:
 		show_debug_message("NEW MENU");
-		room_goto(Lvl1_1);
+		room_goto(LvL1_Interconnected);
 		break;
 	case 2:
 		game_end();
