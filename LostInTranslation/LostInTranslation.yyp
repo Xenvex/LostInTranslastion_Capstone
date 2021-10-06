@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"PlayOneShot","path":"scripts/PlayOneShot/PlayOneShot.yy",},"order":0,},
     {"id":{"name":"Lvl1_1","path":"rooms/Lvl1_1/Lvl1_1.yy",},"order":1,},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},"order":0,},
     {"id":{"name":"o_VDoor","path":"objects/o_VDoor/o_VDoor.yy",},"order":8,},
@@ -17,6 +18,7 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"obj_FocalTest","path":"objects/obj_FocalTest/obj_FocalTest.yy",},"order":0,},
     {"id":{"name":"To-Do-List","path":"notes/To-Do-List/To-Do-List.yy",},"order":0,},
+    {"id":{"name":"spr_FocalPacer","path":"sprites/spr_FocalPacer/spr_FocalPacer.yy",},"order":5,},
     {"id":{"name":"o_Player","path":"objects/o_Player/o_Player.yy",},"order":9,},
     {"id":{"name":"o_Wall","path":"objects/o_Wall/o_Wall.yy",},"order":7,},
   ],
