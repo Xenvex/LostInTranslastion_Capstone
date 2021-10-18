@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 89,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 64,
+  "width": 90,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWE/DoorWE.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWE/DoorWE.yy",},"LayerId":{"name":"d329aefd-be77-43e3-b4f3-cd2bca0d4d6a","path":"sprites/DoorWE/DoorWE.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"DoorWE","path":"sprites/DoorWE/DoorWE.yy",},"resourceVersion":"1.0","name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69360b06-202e-404f-9245-1251333024c6","path":"sprites/PlayerNew/PlayerNew.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69360b06-202e-404f-9245-1251333024c6","path":"sprites/PlayerNew/PlayerNew.yy",},"LayerId":{"name":"ce75696a-f445-42bb-9b63-584ab1fa1fe8","path":"sprites/PlayerNew/PlayerNew.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PlayerNew","path":"sprites/PlayerNew/PlayerNew.yy",},"resourceVersion":"1.0","name":"69360b06-202e-404f-9245-1251333024c6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"DoorWE","path":"sprites/DoorWE/DoorWE.yy",},
+    "spriteId": {"name":"PlayerNew","path":"sprites/PlayerNew/PlayerNew.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7098f461-ebf1-429b-a290-dba0908e0088","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWE/DoorWE.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"526e7b8c-1e09-4c66-ad95-80d8f325aa29","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69360b06-202e-404f-9245-1251333024c6","path":"sprites/PlayerNew/PlayerNew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"DoorWE","path":"sprites/DoorWE/DoorWE.yy",},
+    "parent": {"name":"PlayerNew","path":"sprites/PlayerNew/PlayerNew.yy",},
     "resourceVersion": "1.3",
-    "name": "DoorWE",
+    "name": "PlayerNew",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d329aefd-be77-43e3-b4f3-cd2bca0d4d6a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce75696a-f445-42bb-9b63-584ab1fa1fe8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Ryan's Assets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DoorWE",
+  "name": "PlayerNew",
   "tags": [],
   "resourceType": "GMSprite",
 }
