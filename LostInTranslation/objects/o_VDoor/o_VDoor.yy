@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "DoorWE",
+    "path": "sprites/DoorWE/DoorWE.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,8 +26,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cristian",
+    "path": "folders/Objects/Cristian.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_VDoor",
