@@ -10,6 +10,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"DoorWE","path":"sprites/DoorWE/DoorWE.yy",},"order":2,},
     {"id":{"name":"LvL1_Interconnected","path":"rooms/LvL1_Interconnected/LvL1_Interconnected.yy",},"order":2,},
+    {"id":{"name":"o_Patch_Wall","path":"objects/o_Patch_Wall/o_Patch_Wall.yy",},"order":7,},
     {"id":{"name":"o_Floor","path":"objects/o_Floor/o_Floor.yy",},"order":6,},
     {"id":{"name":"fnt_UI","path":"fonts/fnt_UI/fnt_UI.yy",},"order":1,},
     {"id":{"name":"sInvisible","path":"sprites/sInvisible/sInvisible.yy",},"order":6,},

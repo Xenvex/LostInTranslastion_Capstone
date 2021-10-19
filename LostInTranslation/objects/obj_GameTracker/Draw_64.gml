@@ -22,7 +22,7 @@ var gui_y = off_y_percent * display_get_gui_height()
 
 
 draw_set_font(fnt_UI);
-draw_set_color(c_red);
+draw_set_color(c_white);
 
 
 if(room != Menu)
