@@ -8,6 +8,7 @@ var horizontal_move = key_right - key_left;
 var vertical_move = key_down - key_up;
 
 //horizontal movement
+
 {
 	if(is_hurt and knock_direction=="sideways"){
 		horizontal_speed *= knockback_fr;
@@ -16,6 +17,12 @@ var vertical_move = key_down - key_up;
 		}
 	}else{
 		horizontal_speed = horizontal_move * walk_speed;
+		if(horizontal_move==1){
+			sprite_index=PlayerRight;
+		}
+		if(horizontal_move==-1){
+			sprite_index=PlayerLeft;
+		}
 	}
 	
 	if(place_meeting(x+horizontal_speed,y,o_Wall)){
@@ -45,6 +52,12 @@ var vertical_move = key_down - key_up;
 		}
 	}else{
 		vertical_speed = vertical_move * walk_speed;
+		if(vertical_move == 1){
+			sprite_index = PlayerDown;
+		}
+		if(vertical_move == -1){
+			sprite_index = PlayerUp;
+		}
 	}
 	
 	if(place_meeting(x,y+vertical_speed,o_Wall)){

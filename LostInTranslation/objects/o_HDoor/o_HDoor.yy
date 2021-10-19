@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "DoorWE",
-    "path": "sprites/DoorWE/DoorWE.yy",
+    "name": "DoorNS",
+    "path": "sprites/DoorNS/DoorNS.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cristian",
+    "path": "folders/Objects/Cristian.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_HDoor",
