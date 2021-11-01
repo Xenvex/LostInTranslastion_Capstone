@@ -18,10 +18,16 @@ var vertical_move = key_down - key_up;
 	}else{
 		horizontal_speed = horizontal_move * walk_speed;
 		if(horizontal_move==1){
-			sprite_index=PlayerRight;
+			image_speed = horizontal_speed/3;
+			sprite_index=PlayerWalkRight;
 		}
 		if(horizontal_move==-1){
-			sprite_index=PlayerLeft;
+			image_speed = horizontal_speed/3;
+			sprite_index=PlayerWalkLeft;
+		}
+		if(keyboard_check(vk_nokey)){
+			image_speed = 0;
+			image_index = 0;
 		}
 	}
 	
@@ -53,10 +59,16 @@ var vertical_move = key_down - key_up;
 	}else{
 		vertical_speed = vertical_move * walk_speed;
 		if(vertical_move == 1){
-			sprite_index = PlayerDown;
+			image_speed = vertical_speed/3;
+			sprite_index = PlayerWalkDown;
 		}
 		if(vertical_move == -1){
-			sprite_index = PlayerUp;
+			image_speed = vertical_speed/3;
+			sprite_index = PlayerWalkUp;
+		}
+		if(keyboard_check(vk_nokey)){
+			image_speed = 0;
+			image_index = 0;
 		}
 	}
 	
@@ -83,10 +95,15 @@ var vertical_move = key_down - key_up;
 		var door_obj=instance_place(x,y,o_VDoor);
 		if(door_obj.correct_door == true){
 			door_obj.visible = false;
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+			}
 			show_debug_message("Correct Door Taken");
 			
 		}else{
 			is_hurt = true;
+			PlayOneShot(sndHurt);
 			player_lives -=1;
 			knock_direction = "sideways";
 			horizontal_speed = - horizontal_speed;
@@ -100,10 +117,16 @@ var vertical_move = key_down - key_up;
 	if(not is_hurt and place_meeting(x,y,o_HDoor)){
 		var door_obj=instance_place(x,y,o_HDoor);
 		if(door_obj.correct_door == true){
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+			}
+			//have counter for if door was already passed through
 			door_obj.visible = false;
 			show_debug_message("Correct Door Taken");
 		}else{
 			is_hurt = true;
+			PlayOneShot(sndHurt);
 			player_lives-=1;
 			knock_direction = "updown";
 			vertical_speed = - vertical_speed;
