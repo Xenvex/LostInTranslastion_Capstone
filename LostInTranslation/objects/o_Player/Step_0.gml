@@ -8,7 +8,6 @@ var horizontal_move = key_right - key_left;
 var vertical_move = key_down - key_up;
 
 //horizontal movement
-
 {
 	if(is_hurt and knock_direction=="sideways"){
 		horizontal_speed *= knockback_fr;
@@ -82,10 +81,16 @@ var vertical_move = key_down - key_up;
 	if(not is_hurt and place_meeting(x,y,o_VDoor)){
 		var door_obj=instance_place(x,y,o_VDoor);
 		if(door_obj.correct_door == true){
+			//audio_stop_sound(sndDoorOpen);
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+			}
 			door_obj.visible = false;
 			show_debug_message("Correct Door Taken");
 			
 		}else{
+			PlayOneShot(sndHurt);
 			is_hurt = true;
 			player_lives -=1;
 			knock_direction = "sideways";
@@ -100,9 +105,15 @@ var vertical_move = key_down - key_up;
 	if(not is_hurt and place_meeting(x,y,o_HDoor)){
 		var door_obj=instance_place(x,y,o_HDoor);
 		if(door_obj.correct_door == true){
+			//audio_stop_sound(sndDoorOpen);
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+			}
 			door_obj.visible = false;
 			show_debug_message("Correct Door Taken");
 		}else{
+			PlayOneShot(sndHurt);
 			is_hurt = true;
 			player_lives-=1;
 			knock_direction = "updown";
