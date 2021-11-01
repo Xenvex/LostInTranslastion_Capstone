@@ -8,7 +8,6 @@ var horizontal_move = key_right - key_left;
 var vertical_move = key_down - key_up;
 
 //horizontal movement
-
 {
 	if(is_hurt and knock_direction=="sideways"){
 		horizontal_speed *= knockback_fr;
