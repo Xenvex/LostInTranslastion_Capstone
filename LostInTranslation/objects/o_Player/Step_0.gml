@@ -17,10 +17,10 @@ var vertical_move = key_down - key_up;
 	}else{
 		horizontal_speed = horizontal_move * walk_speed;
 		if(horizontal_move==1){
-			sprite_index=PlayerRight;
+			sprite_index=PlayerWalkRight;
 		}
 		if(horizontal_move==-1){
-			sprite_index=PlayerLeft;
+			sprite_index=PlayerWalkLeft;
 		}
 	}
 	
@@ -52,10 +52,10 @@ var vertical_move = key_down - key_up;
 	}else{
 		vertical_speed = vertical_move * walk_speed;
 		if(vertical_move == 1){
-			sprite_index = PlayerDown;
+			sprite_index = PlayerWalkDown;
 		}
 		if(vertical_move == -1){
-			sprite_index = PlayerUp;
+			sprite_index = PlayerWalkUp;
 		}
 	}
 	
