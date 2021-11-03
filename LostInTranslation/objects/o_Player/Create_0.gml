@@ -7,4 +7,5 @@ player_lives = 3;
 is_hurt = false;
 knock_direction = "";
 knockback_fr = 0.97;
+image_speed = 0;
 
