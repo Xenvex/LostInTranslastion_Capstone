@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Vandit",
-    "path": "folders/Objects/Vandit.yy",
+    "name": "Objects",
+    "path": "folders/Vandit/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Answer2",

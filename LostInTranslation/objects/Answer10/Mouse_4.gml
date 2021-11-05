@@ -3,10 +3,10 @@
 if(can_click == true)
 {
 	selected = true;
+	Answer6.selected=false;
 	Answer7.selected=false;
 	Answer8.selected=false;
 	Answer9.selected=false;
-	Answer6.selected=false;
 	keyboard_string=text;
 }
 xx = x-mouse_x;

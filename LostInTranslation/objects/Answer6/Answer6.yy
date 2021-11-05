@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "InputText",
-    "path": "sprites/InputText/InputText.yy",
+    "name": "TypeAnswer",
+    "path": "sprites/TypeAnswer/TypeAnswer.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,15 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Vandit",
-    "path": "folders/Objects/Vandit.yy",
+    "name": "Objects",
+    "path": "folders/Vandit/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Answer6",

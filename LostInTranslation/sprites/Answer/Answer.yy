@@ -2,19 +2,19 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 127,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
+  "width": 128,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/Answer/Answer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/Answer/Answer.yy",},"LayerId":{"name":"67184bfb-5894-4f44-83a7-54d947e7bc85","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Answer","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b462d46e-08db-429c-999d-c2fccfce078d","path":"sprites/Answer/Answer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b462d46e-08db-429c-999d-c2fccfce078d","path":"sprites/Answer/Answer.yy",},"LayerId":{"name":"37994af5-3e31-4151-ad94-6ba72d40dbb6","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Answer","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","name":"b462d46e-08db-429c-999d-c2fccfce078d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Answer","path":"sprites/Answer/Answer.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fb4f19ba-16a9-40fc-88f0-0a598a029cbb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0d5f7d6-cd5b-4342-a5ab-d5b4e5607016","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b462d46e-08db-429c-999d-c2fccfce078d","path":"sprites/Answer/Answer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 128,
-    "yorigin": 16,
+    "xorigin": 0,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Answer","path":"sprites/Answer/Answer.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67184bfb-5894-4f44-83a7-54d947e7bc85","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37994af5-3e31-4151-ad94-6ba72d40dbb6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Vandit",
-    "path": "folders/Objects/Vandit.yy",
+    "name": "Sprites",
+    "path": "folders/Vandit/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Answer",

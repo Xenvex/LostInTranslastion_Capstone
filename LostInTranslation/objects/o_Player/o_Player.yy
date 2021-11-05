@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Player",
-    "path": "sprites/Player/Player.yy",
+    "name": "PlayerDown",
+    "path": "sprites/PlayerDown/PlayerDown.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cristian",
+    "path": "folders/Objects/Cristian.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_Player",

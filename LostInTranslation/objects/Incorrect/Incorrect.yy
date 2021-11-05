@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ScoreText",
-    "path": "sprites/ScoreText/ScoreText.yy",
+    "name": "CorIncor",
+    "path": "sprites/CorIncor/CorIncor.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Vandit",
-    "path": "folders/Objects/Vandit.yy",
+    "name": "Objects",
+    "path": "folders/Vandit/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Incorrect",
