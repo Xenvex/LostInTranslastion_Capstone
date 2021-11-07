@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWest/DoorWest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWest/DoorWest.yy",},"LayerId":{"name":"d329aefd-be77-43e3-b4f3-cd2bca0d4d6a","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"DoorWest","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3448ce18-1e36-4246-9965-65bba6b27339","path":"sprites/DoorWest/DoorWest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3448ce18-1e36-4246-9965-65bba6b27339","path":"sprites/DoorWest/DoorWest.yy",},"LayerId":{"name":"6ca9662f-9c15-42c1-9ff6-6f92958a77b0","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"DoorWest","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","name":"3448ce18-1e36-4246-9965-65bba6b27339","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"DoorWest","path":"sprites/DoorWest/DoorWest.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7098f461-ebf1-429b-a290-dba0908e0088","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3689fa9-a24a-4dbb-b392-95f4eff8c361","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"29c37021-2bec-4631-bfb6-4257f07aded0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3448ce18-1e36-4246-9965-65bba6b27339","path":"sprites/DoorWest/DoorWest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d329aefd-be77-43e3-b4f3-cd2bca0d4d6a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6ca9662f-9c15-42c1-9ff6-6f92958a77b0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
