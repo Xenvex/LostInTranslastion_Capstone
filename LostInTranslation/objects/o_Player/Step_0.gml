@@ -98,6 +98,7 @@ var vertical_move = key_down - key_up;
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				instance_activate_object(o_Check);
 			}
 			show_debug_message("Correct Door Taken");
 			
@@ -108,6 +109,7 @@ var vertical_move = key_down - key_up;
 			knock_direction = "sideways";
 			horizontal_speed = - horizontal_speed;
 			show_debug_message("Player now has " + string(player_lives) + " lives.");
+			instance_activate_object(o_Cross);
 		}
 	}
 }
@@ -120,6 +122,7 @@ var vertical_move = key_down - key_up;
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				instance_activate_object(o_Check);
 			}
 			//have counter for if door was already passed through
 			door_obj.visible = false;
@@ -131,6 +134,7 @@ var vertical_move = key_down - key_up;
 			knock_direction = "updown";
 			vertical_speed = - vertical_speed;
 			show_debug_message("Player now has " + string(player_lives) + " lives.");
+			instance_activate_object(o_Cross);
 		}
 	}
 }
