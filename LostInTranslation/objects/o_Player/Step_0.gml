@@ -98,9 +98,16 @@ var vertical_move = key_down - key_up;
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
-				instance_activate_object(o_Check);
+				//instance_activate_object(o_Check);
+				if(instance_exists(o_Cross))
+				{
+					instance_destroy(o_Cross);	
+				}
+				instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Check);
 			}
-			show_debug_message("Correct Door Taken");
+			//have counter for if door was already passed through
+			door_obj.visible = false;
+			//show_debug_message("Correct Door Taken");
 			
 		}else{
 			is_hurt = true;
@@ -109,7 +116,11 @@ var vertical_move = key_down - key_up;
 			knock_direction = "sideways";
 			horizontal_speed = - horizontal_speed;
 			show_debug_message("Player now has " + string(player_lives) + " lives.");
-			instance_activate_object(o_Cross);
+			if(instance_exists(o_Check))
+			{
+				instance_destroy(o_Check);	
+			}
+			instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Cross);
 		}
 	}
 }
@@ -122,11 +133,16 @@ var vertical_move = key_down - key_up;
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
-				instance_activate_object(o_Check);
+				//instance_activate_object(o_Check);
+				if(instance_exists(o_Cross))
+				{
+					instance_destroy(o_Cross);	
+				}
+				instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Check);
 			}
 			//have counter for if door was already passed through
 			door_obj.visible = false;
-			show_debug_message("Correct Door Taken");
+			//show_debug_message("Correct Door Taken");
 		}else{
 			is_hurt = true;
 			PlayOneShot(sndHurt);
@@ -134,7 +150,11 @@ var vertical_move = key_down - key_up;
 			knock_direction = "updown";
 			vertical_speed = - vertical_speed;
 			show_debug_message("Player now has " + string(player_lives) + " lives.");
-			instance_activate_object(o_Cross);
+			if(instance_exists(o_Check))
+			{
+				instance_destroy(o_Check);	
+			}
+			instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Cross);
 		}
 	}
 }
