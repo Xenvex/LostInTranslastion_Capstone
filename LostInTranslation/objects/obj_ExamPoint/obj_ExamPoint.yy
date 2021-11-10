@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Cross",
-    "path": "sprites/Cross/Cross.yy",
+    "name": "spr_point",
+    "path": "sprites/spr_point/spr_point.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ryan",
-    "path": "folders/Objects/Ryan.yy",
+    "name": "Matt",
+    "path": "folders/Objects/Matt.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_Cross",
+  "name": "obj_ExamPoint",
   "tags": [],
   "resourceType": "GMObject",
 }

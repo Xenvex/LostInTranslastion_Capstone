@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Cross",
-    "path": "sprites/Cross/Cross.yy",
+    "name": "spr_FocalPacer",
+    "path": "sprites/spr_FocalPacer/spr_FocalPacer.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ryan",
-    "path": "folders/Objects/Ryan.yy",
+    "name": "FocalPoints",
+    "path": "folders/Objects/Matt/FocalPoints.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_Cross",
+  "name": "obj_FocalTest2",
   "tags": [],
   "resourceType": "GMObject",
 }
