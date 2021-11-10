@@ -7,3 +7,4 @@ text="";
 can_click=true;
 max_width=400;
 correct_answer="Yesterday";
+collision = 0;

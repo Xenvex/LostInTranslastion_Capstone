@@ -3,3 +3,4 @@
 text="Siempre";
 boxWidth = sprite_get_width(Question);
 stringHeight=string_height(text);
+collision = 0;
