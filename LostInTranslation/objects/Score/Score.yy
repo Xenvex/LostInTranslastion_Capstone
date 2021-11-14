@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Vandit/Objects.yy",
+    "name": "Object",
+    "path": "folders/Vandit/Object.yy",
   },
   "resourceVersion": "1.0",
   "name": "Score",

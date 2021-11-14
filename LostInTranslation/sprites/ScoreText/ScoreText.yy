@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 127,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
+  "width": 128,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/ScoreText/ScoreText.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/ScoreText/ScoreText.yy",},"LayerId":{"name":"67184bfb-5894-4f44-83a7-54d947e7bc85","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ScoreText","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5fea255f-a50c-4c05-88aa-09443a5999cb","path":"sprites/ScoreText/ScoreText.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5fea255f-a50c-4c05-88aa-09443a5999cb","path":"sprites/ScoreText/ScoreText.yy",},"LayerId":{"name":"c96440c2-333e-4002-ad2e-ec4463d58617","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ScoreText","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","name":"5fea255f-a50c-4c05-88aa-09443a5999cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"ScoreText","path":"sprites/ScoreText/ScoreText.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a5397baf-92a4-46e2-b8f8-82ee8fc7023b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d88515b1-3b97-4c8f-a493-1f8f25b3c021","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f5d7cffc-c1c8-4531-bdde-dbf6de06a254","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fea255f-a50c-4c05-88aa-09443a5999cb","path":"sprites/ScoreText/ScoreText.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 128,
+    "xorigin": 64,
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67184bfb-5894-4f44-83a7-54d947e7bc85","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c96440c2-333e-4002-ad2e-ec4463d58617","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Vandit",
-    "path": "folders/Objects/Vandit.yy",
+    "name": "Sprite",
+    "path": "folders/Vandit/Sprite.yy",
   },
   "resourceVersion": "1.0",
   "name": "ScoreText",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "CorIncor",
-    "path": "sprites/CorIncor/CorIncor.yy",
+    "name": "ScoreText",
+    "path": "sprites/ScoreText/ScoreText.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Vandit/Objects.yy",
+    "name": "Object",
+    "path": "folders/Vandit/Object.yy",
   },
   "resourceVersion": "1.0",
   "name": "CheckAnswer",
