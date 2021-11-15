@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "DoorWest",
-    "path": "sprites/DoorWest/DoorWest.yy",
+    "name": "DoorEast",
+    "path": "sprites/DoorEast/DoorEast.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Cristian.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_VDoor_Hollow",
+  "name": "o_VEastDoor_Hollow",
   "tags": [],
   "resourceType": "GMObject",
 }

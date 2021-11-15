@@ -89,10 +89,10 @@ var vertical_move = key_down - key_up;
 	y+=vertical_speed;
 }
 
-//Vertical Door Collision
+//Vertical East Door Collision
 {
-	if(not is_hurt and place_meeting(x,y,o_VDoor)){
-		var door_obj=instance_place(x,y,o_VDoor);
+	if(not is_hurt and place_meeting(x,y,o_VEastDoor)){
+		var door_obj=instance_place(x,y,o_VEastDoor);
 		if(door_obj.correct_door == true){
 			door_obj.visible = false;
 			if(door_obj.playedAlready == false){
@@ -123,12 +123,49 @@ var vertical_move = key_down - key_up;
 			instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Cross);
 		}
 	}
+	
 }
 
-//Horizontal Collision
+//Vertical West Door
 {
-	if(not is_hurt and place_meeting(x,y,o_HDoor)){
-		var door_obj=instance_place(x,y,o_HDoor);
+if(not is_hurt and place_meeting(x,y,o_VWestDoor)){
+		var door_obj=instance_place(x,y,o_VWestDoor);
+		if(door_obj.correct_door == true){
+			door_obj.visible = false;
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+				//instance_activate_object(o_Check);
+				if(instance_exists(o_Cross))
+				{
+					instance_destroy(o_Cross);	
+				}
+				instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Check);
+			}
+			//have counter for if door was already passed through
+			door_obj.visible = false;
+			//show_debug_message("Correct Door Taken");
+			
+		}else{
+			is_hurt = true;
+			PlayOneShot(sndHurt);
+			player_lives -=1;
+			knock_direction = "sideways";
+			horizontal_speed = - horizontal_speed;
+			show_debug_message("Player now has " + string(player_lives) + " lives.");
+			if(instance_exists(o_Check))
+			{
+				instance_destroy(o_Check);	
+			}
+			instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Cross);
+		}
+	}	
+}
+
+//Horizontal North Collision
+{
+	if(not is_hurt and place_meeting(x,y,o_HNorthDoor)){
+		var door_obj=instance_place(x,y,o_HNorthDoor);
 		if(door_obj.correct_door == true){
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
@@ -158,5 +195,40 @@ var vertical_move = key_down - key_up;
 		}
 	}
 }
+
+//Horizontal South Collision
+{
+	if(not is_hurt and place_meeting(x,y,o_HSouthDoor)){
+		var door_obj=instance_place(x,y,o_HSouthDoor);
+		if(door_obj.correct_door == true){
+			if(door_obj.playedAlready == false){
+				PlayOneShot(sndDoorOpen);
+				door_obj.playedAlready = true;
+				//instance_activate_object(o_Check);
+				if(instance_exists(o_Cross))
+				{
+					instance_destroy(o_Cross);	
+				}
+				instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Check);
+			}
+			//have counter for if door was already passed through
+			door_obj.visible = false;
+			//show_debug_message("Correct Door Taken");
+		}else{
+			is_hurt = true;
+			PlayOneShot(sndHurt);
+			player_lives-=1;
+			knock_direction = "updown";
+			vertical_speed = - vertical_speed;
+			show_debug_message("Player now has " + string(player_lives) + " lives.");
+			if(instance_exists(o_Check))
+			{
+				instance_destroy(o_Check);	
+			}
+			instance_create_depth(global.ePoint.x, global.ePoint.y, o_Player.depth + 1, o_Cross);
+		}
+	}
+}
+
 
 

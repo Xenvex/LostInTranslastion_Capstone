@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "DoorNorth",
-    "path": "sprites/DoorNorth/DoorNorth.yy",
+    "name": "DoorSouth",
+    "path": "sprites/DoorSouth/DoorSouth.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"correct_door","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"playedAlready","tags":[],"resourceType":"GMObjectProperty",},
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Cristian.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_HDoor",
+  "name": "o_HSouthDoor_Hollow",
   "tags": [],
   "resourceType": "GMObject",
 }
