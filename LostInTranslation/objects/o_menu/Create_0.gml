@@ -5,7 +5,7 @@ menu_y = y;
 button_height = 60; //how spaced the buttons are
 
 button[0] = "New Game";
-button[1] = "Flashcard Mode";
+button[1] = "Assessment";
 button[2] = "Exit";
 buttons = array_length_1d(button); //gives us the size of this array
 
