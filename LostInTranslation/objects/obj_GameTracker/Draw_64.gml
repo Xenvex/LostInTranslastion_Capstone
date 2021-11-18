@@ -33,7 +33,14 @@ if(room != Menu)
 		draw_text(gui_x - 550, gui_y - 345, "Level: " + string(global.levels));
 	
 		//Draw Lives
-		draw_text(gui_x- 550, gui_y - 300, "Lives: " + string(o_Player.player_lives));
+		draw_text(gui_x - 550, gui_y - 300, "Lives: " + string(o_Player.player_lives));
+		
+		//Draw Current Word
+		draw_text(gui_x - 490, gui_y + 200, "Current Word: \n"+string(global.currentWord));
 	}
+	
+	
+	
+	
 }
 //draw_text(XOffset, YOffset, "Hello");
