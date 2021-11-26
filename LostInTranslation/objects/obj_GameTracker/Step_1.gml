@@ -4,4 +4,7 @@ if(instance_exists(o_Player))
 	{
 		room_restart();
 	}
+	if(global.door_count==3){
+		room_goto(Ending);
+	}
 }
