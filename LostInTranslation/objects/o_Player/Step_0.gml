@@ -98,6 +98,7 @@ var vertical_move = key_down - key_up;
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				global.door_count+=1;
 				//instance_activate_object(o_Check);
 				if(instance_exists(o_Cross))
 				{
@@ -135,6 +136,7 @@ if(not is_hurt and place_meeting(x,y,o_VWestDoor)){
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				global.door_count+=1;
 				//instance_activate_object(o_Check);
 				if(instance_exists(o_Cross))
 				{
@@ -170,6 +172,7 @@ if(not is_hurt and place_meeting(x,y,o_VWestDoor)){
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				global.door_count+=1;
 				//instance_activate_object(o_Check);
 				if(instance_exists(o_Cross))
 				{
@@ -204,6 +207,7 @@ if(not is_hurt and place_meeting(x,y,o_VWestDoor)){
 			if(door_obj.playedAlready == false){
 				PlayOneShot(sndDoorOpen);
 				door_obj.playedAlready = true;
+				global.door_count+=1;
 				//instance_activate_object(o_Check);
 				if(instance_exists(o_Cross))
 				{
