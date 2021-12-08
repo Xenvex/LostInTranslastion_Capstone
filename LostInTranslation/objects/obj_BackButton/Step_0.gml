@@ -1,4 +1,5 @@
 if(keyboard_check_pressed(vk_escape))
 {
-	room_goto(Menu);	
+	game_restart();
+	//room_goto(Menu);	
 }
