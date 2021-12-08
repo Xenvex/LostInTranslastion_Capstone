@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"ScoreText","path":"sprites/ScoreText/ScoreText.yy",},"order":2,},
     {"id":{"name":"o_VEastDoor_Hollow","path":"objects/o_VEastDoor_Hollow/o_VEastDoor_Hollow.yy",},"order":13,},
+    {"id":{"name":"obj_BackButton","path":"objects/obj_BackButton/obj_BackButton.yy",},"order":8,},
     {"id":{"name":"obj_GameTracker","path":"objects/obj_GameTracker/obj_GameTracker.yy",},"order":2,},
     {"id":{"name":"o_Facil","path":"objects/o_Facil/o_Facil.yy",},"order":2,},
     {"id":{"name":"Small","path":"sprites/Small/Small.yy",},"order":23,},
