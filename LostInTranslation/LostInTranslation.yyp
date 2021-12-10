@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"ScoreText","path":"sprites/ScoreText/ScoreText.yy",},"order":2,},
     {"id":{"name":"o_VEastDoor_Hollow","path":"objects/o_VEastDoor_Hollow/o_VEastDoor_Hollow.yy",},"order":13,},
+    {"id":{"name":"obj_BackButton","path":"objects/obj_BackButton/obj_BackButton.yy",},"order":8,},
     {"id":{"name":"obj_GameTracker","path":"objects/obj_GameTracker/obj_GameTracker.yy",},"order":2,},
     {"id":{"name":"o_Facil","path":"objects/o_Facil/o_Facil.yy",},"order":2,},
     {"id":{"name":"Small","path":"sprites/Small/Small.yy",},"order":23,},
@@ -138,6 +139,7 @@
     {"id":{"name":"Animaition_End","path":"scripts/Animaition_End/Animaition_End.yy",},"order":3,},
     {"id":{"name":"Nunca","path":"sprites/Nunca/Nunca.yy",},"order":17,},
     {"id":{"name":"To-Do-List","path":"notes/To-Do-List/To-Do-List.yy",},"order":0,},
+    {"id":{"name":"Team5_LostinTranslation_export","path":"sprites/Team5_LostinTranslation_export/Team5_LostinTranslation_export.yy",},"order":9,},
     {"id":{"name":"o_Como","path":"objects/o_Como/o_Como.yy",},"order":5,},
     {"id":{"name":"Question4","path":"objects/Question4/Question4.yy",},"order":17,},
     {"id":{"name":"PlayerWalkUp","path":"sprites/PlayerWalkUp/PlayerWalkUp.yy",},"order":10,},
