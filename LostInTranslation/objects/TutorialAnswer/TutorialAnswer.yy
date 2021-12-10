@@ -31,11 +31,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "LostInTranslation",
-    "path": "LostInTranslation.yyp",
+    "name": "Object",
+    "path": "folders/Vandit/Object.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Answer7",
+  "name": "TutorialAnswer",
   "tags": [],
   "resourceType": "GMObject",
 }
